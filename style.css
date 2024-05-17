@@ -208,7 +208,7 @@ ul a:hover {
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
-.form {
+.forms {
   display: flex;
   justify-content: center;
   gap: 70px;
@@ -216,7 +216,10 @@ ul a:hover {
   background: #171819;
   padding-bottom: 30px;
 }
-
+.form {
+  display: flex;
+  flex-direction: row;
+}
 .title_form {
   font-size: 22px;
   color: #fff;
